@@ -12,6 +12,8 @@
         <!-- !!! THE LINE ABOVE IS REQUIRED SO YOU CAN USE BOOTSTRAP !!! -->
     </head>
     <body>
-        Hello World!
+        <a href="/daftar-mahasiswa">Pergi Daftar Mahasiswa</a><br>
+        <a href="/blog-mahasiswa">Pergi Blog Mahasiswa</a><br>
+        <a href="/tabel-mahasiswa">Pergi Tabel Mahasiswa</a><br>
     </body>
 </html>

@@ -9,4 +9,4 @@ Route::get('/', function () {
 
 Route::get('/daftar-mahasiswa', [MahasiswaController::class, 'daftarMahasiswa']);
 Route::get('/blog-mahasiswa', [MahasiswaController::class, 'blogMahasiswa']);
-Route::get('/tabel-mahasiswa', [MahasiswaController::class, 'tabelMahasiswa']);
+Route::get('/tabel-mahasiswa', [MahasiswaController::class, 'tabelMahasiswa'])->middleware('cek-role');
